@@ -18,7 +18,7 @@
 [profiles]
   [[default]]
     cursor_color = "#aaaaaa"
-    font = Ubuntu Mono 13
+    font = Ubuntu Mono 14
     foreground_color = "#ffffff"
     scrollback_infinite = True
     show_titlebar = False
