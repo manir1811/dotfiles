@@ -34,6 +34,7 @@ exec_always --no-startup-id feh --bg-fill $HOME/wallpaper.jpg
 exec --no-startup-id compton --config $HOME/.config/compton.conf
 exec --no-startup-id dunst
 exec --no-startup-id udiskie
+exec --no-startup-id nm-applet
 # Increases trackpad speed
 exec xinput set-prop 12 298 0.3
 
