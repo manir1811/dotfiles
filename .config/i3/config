@@ -37,6 +37,8 @@ exec --no-startup-id udiskie
 exec --no-startup-id nm-applet
 # Increases trackpad speed
 exec --no-startup-id xinput set-prop 13 287 0.4
+# Trackpad natural scrolling
+exec --no-startup-id xinput set-prop 13 278 1
 
 # common apps keybinds
 bindsym Print exec scrot 'Cheese_%a-%d%b%y_%H.%M.png' -e 'viewnior ~/$f'
